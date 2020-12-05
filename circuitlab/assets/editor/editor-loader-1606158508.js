@@ -166,4 +166,5 @@ window['circuitlab_version'] = "302fbcde890e1df716549a1c7ee11bed1fd59cbd";
   */
  return k();
 }).call(this);
-window['loader_editor_path'] = '../assets/editor/editor-compiled-1606158508.js';
+//window['loader_editor_path'] = '../assets/editor/editor-compiled-1606158508.js';
+window['loader_editor_path'] = '../assets/editor/editor.js';
