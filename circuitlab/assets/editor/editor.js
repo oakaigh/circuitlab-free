@@ -24686,7 +24686,8 @@ window['circuitlab_version'] = "302fbcde890e1df716549a1c7ee11bed1fd59cbd";
             c.prototype.Ze = function () {
                 var a, b = this;
                 a = this.XE();
-                a.done(function (a) {
+                return a;
+                /*a.done(function (a) {
                     if (a && a.is_authenticated) {
                         b.Xc = l;
                         b.yh = a;
@@ -24708,7 +24709,7 @@ window['circuitlab_version'] = "302fbcde890e1df716549a1c7ee11bed1fd59cbd";
                 a.always(function () {
                     return b.c.m.trigger("circuitlab.loginstatuscheck")
                 });
-                return a
+                return a*/
             };
             c.prototype.Pq =
                 function () {
